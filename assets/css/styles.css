@@ -28,17 +28,27 @@ a:visited { color: #D87563; }
 /*                        Header                        */
 /********************************************************/
 .header {
-	background: #A43222;
+	background-image: url("../images/%E8%83%8C%E6%99%AF%E4%BA%94.jpg" );
+    background-attachment: fixed;
+    background-size: cover;
+    height: 800px;
+    
+    
+    
+/*
 	background: -moz-linear-gradient(top,  #A43222 0%, #CD503A 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A43222), color-stop(100%,#CD503A));
 	background: -webkit-linear-gradient(top,  #A43222 0%,#CD503A 100%);
 	background: -o-linear-gradient(top,  #A43222 0%,#CD503A 100%);
 	background: -ms-linear-gradient(top,  #A43222 0%,#CD503A 100%);
 	background: linear-gradient(to bottom,  #A43222 0%,#CD503A 100%);
+*/
+/*
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A43222', endColorstr='#CD503A',GradientType=0 ); 
 	color: white;
 	margin-bottom: 0;
 	padding-bottom: 0px;
+*/
 }
 .header h1 {
 	font-family: "Open sans", Arial;
@@ -113,7 +123,15 @@ a:visited { color: #D87563; }
 .content { 
 	position: relative; 
 	z-index: 999; 
-	margin-bottom:40px;  
+	margin-bottom:40px; 
+    background-image: url("../images/%E8%83%8C%E6%99%AF%E5%85%AB.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    
+        
+/*    background-image: url(../images/%E8%83%8C%E6%99%AF%E5%85%AD.jpg);*/
+    
+/*    opacity: 0.5;*/
 }
 
 .jumbotron { 
